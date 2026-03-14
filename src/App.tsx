@@ -1,4 +1,5 @@
 import { Container, CssBaseline, createTheme, ThemeProvider } from "@mui/material";
+import Auth from "./components/Auth";
 
 const darkTheme = createTheme({
 	palette: {
@@ -12,6 +13,7 @@ const App = () => {
 			<CssBaseline />
 			<Container>
 				<h1>Dark Mode</h1>
+				<Auth />
 			</Container>
 		</ThemeProvider>
 	);
